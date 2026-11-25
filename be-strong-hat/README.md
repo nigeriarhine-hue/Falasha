@@ -55,4 +55,4 @@ The upload files are 1500 × 525 px (5" × 1.75" at 300 DPI), transparent, with 
 - Fully embroidered design (not printed)
 - Made to order
 
-**Tags (13):** be strong hat, joshua 1 9 hat, christian hat, faith hat, african colors hat, red gold green, pan african hat, embroidered dad hat, christian gift, bible verse hat, black owned, religious gift, scripture hat
+**Tags (13):** be strong hat, joshua 1 9 hat, christian hat, faith hat, african colors hat, red gold green, pan african hat, embroidered dad hat, christian gift, bible verse hat, courage hat, religious gift, scripture hat
