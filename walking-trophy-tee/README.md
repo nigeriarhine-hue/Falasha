@@ -11,7 +11,7 @@ Blank: Printful women's relaxed t-shirt, Bella+Canvas 6400. Printing: DTG (direc
   - An hourglass figure that becomes the cup, and a gown that narrows into the stem.
 - **Base:** a plain two-tier gold base, with no plaque or text, and gold sparkles around her.
 
-**Front (left chest):** *Walking Trophy* in an elegant script on top, with a gold laurel-wreath crest around the same trophy underneath it and a small star at the top of the wreath.
+**Front (left chest):** *Already Won* in an elegant script on top, with a gold laurel-wreath crest around the same trophy underneath it and a small star at the top of the wreath.
 
 Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for commercial use.
 
@@ -38,12 +38,12 @@ Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for co
    - Light files: White, Natural, Soft Cream.
 
 ## Etsy listing copy (draft)
-**Title:** Walking Trophy Shirt, Women's Relaxed Tee, Gold Trophy Graphic, Confidence Shirt, Self Love Gift, Black Woman Empowerment Tee
+**Title:** Walking Trophy Shirt, Already Won Tee, Women's Relaxed Tee, Gold Trophy Graphic, Confidence Shirt, Self Love Gift, Black Woman Empowerment Tee
 
 **Description:**
-She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy on the back shaped like a woman, with her afro, curves and hands on her hips. On the front is a gold laurel crest.
+She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy on the back shaped like a woman, with her afro, curves and hands on her hips. On the front is a gold laurel crest with the words *Already Won*.
 - Bella+Canvas 6400 women's relaxed fit, soft 100% cotton (heathers are cotton blend)
 - Printed front and back
 - Made to order
 
-**Tags (13):** walking trophy, trophy shirt, womens graphic tee, confidence shirt, self love shirt, gift for her, gold trophy tee, empowerment shirt, black woman shirt, birthday gift her, queen shirt, relaxed fit tee, statement tee
+**Tags (13):** walking trophy, already won shirt, womens graphic tee, confidence shirt, self love shirt, gift for her, gold trophy tee, empowerment shirt, black woman shirt, birthday gift her, queen shirt, relaxed fit tee, statement tee

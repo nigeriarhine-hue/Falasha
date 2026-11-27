@@ -77,7 +77,7 @@ const back = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg"
 </svg>`;
 // FRONT left chest: 4" x 4" @300dpi - script name on top, laurel crest with the trophy beneath it
 const front = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200"><defs>${GOLD}</defs>
-  <text x="600" y="252" text-anchor="middle" font-family="GV" font-size="190" fill="${ink}">Walking Trophy</text>
+  <text x="600" y="262" text-anchor="middle" font-family="GV" font-size="215" fill="${ink}">Already Won</text>
   <g transform="translate(600 362) scale(0.9) translate(-600 -44)">
    ${laurel(600, 470, 380)}
    <g transform="translate(600 150) scale(0.6) translate(-500 0)">${trophy(plaqueInk, true)}</g>
