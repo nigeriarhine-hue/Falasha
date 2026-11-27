@@ -75,12 +75,14 @@ const back = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg"
   <g transform="translate(500 1330) scale(2.6)">${trophy(plaqueInk)}</g>
   ${sparkle(820, 1800, 2.0)}${sparkle(2780, 2050, 2.6)}${sparkle(2520, 1560, 1.3)}${sparkle(1000, 2650, 1.2)}${sparkle(2700, 3150, 1.3)}
 </svg>`;
-// FRONT left chest: 4" x 4" @300dpi - laurel crest around the trophy, script name beneath
+// FRONT left chest: 4" x 4" @300dpi - script name on top, laurel crest with the trophy beneath it
 const front = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200"><defs>${GOLD}</defs>
-  ${laurel(600, 470, 380)}
-  <g transform="translate(600 150) scale(0.6) translate(-500 0)">${trophy(plaqueInk, true)}</g>
-  <path d="M600 44 L612 68 L638 72 L619 90 L624 116 L600 104 L576 116 L581 90 L562 72 L588 68 Z" fill="url(#goldV)"/>
-  <text x="600" y="1080" text-anchor="middle" font-family="GV" font-size="190" fill="${ink}">Walking Trophy</text>
+  <text x="600" y="252" text-anchor="middle" font-family="GV" font-size="190" fill="${ink}">Walking Trophy</text>
+  <g transform="translate(600 362) scale(0.9) translate(-600 -44)">
+   ${laurel(600, 470, 380)}
+   <g transform="translate(600 150) scale(0.6) translate(-500 0)">${trophy(plaqueInk, true)}</g>
+   <path d="M600 44 L612 68 L638 72 L619 90 L624 116 L600 104 L576 116 L581 90 L562 72 L588 68 Z" fill="url(#goldV)"/>
+  </g>
 </svg>`;
 const variants = { 'dark-shirts': ['#FFFFFF', '#141414'], 'light-shirts': ['#141414', '#141414'] };
 (async () => {

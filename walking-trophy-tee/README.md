@@ -11,7 +11,7 @@ Blank: Printful women's relaxed t-shirt, Bella+Canvas 6400. Printing: DTG (direc
   - An hourglass figure that becomes the cup, and a gown that narrows into the stem.
 - **Base:** a plain two-tier gold base, with no plaque or text, and gold sparkles around her.
 
-**Front (left chest):** a gold laurel-wreath crest around the same trophy, with a small star at the top of the wreath and *Walking Trophy* in an elegant script underneath.
+**Front (left chest):** *Walking Trophy* in an elegant script on top, with a gold laurel-wreath crest around the same trophy underneath it and a small star at the top of the wreath.
 
 Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for commercial use.
 
