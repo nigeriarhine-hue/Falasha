@@ -75,14 +75,9 @@ const back = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg"
   <g transform="translate(500 1330) scale(2.6)">${trophy(plaqueInk)}</g>
   ${sparkle(820, 1800, 2.0)}${sparkle(2780, 2050, 2.6)}${sparkle(2520, 1560, 1.3)}${sparkle(1000, 2650, 1.2)}${sparkle(2700, 3150, 1.3)}
 </svg>`;
-// FRONT left chest: 4" x 4" @300dpi - script name on top, laurel crest with the trophy beneath it
-const front = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200"><defs>${GOLD}</defs>
-  <text x="600" y="262" text-anchor="middle" font-family="GV" font-size="215" fill="${ink}">Already Won</text>
-  <g transform="translate(600 362) scale(0.9) translate(-600 -44)">
-   ${laurel(600, 470, 380)}
-   <g transform="translate(600 150) scale(0.6) translate(-500 0)">${trophy(plaqueInk, true)}</g>
-   <path d="M600 44 L612 68 L638 72 L619 90 L624 116 L600 104 L576 116 L581 90 L562 72 L588 68 Z" fill="url(#goldV)"/>
-  </g>
+// FRONT centre chest: 12" x 4" @300dpi - just the words, centred
+const front = (ink) => `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 1200">
+  <text x="1800" y="740" text-anchor="middle" font-family="GV" font-size="640" fill="${ink}">Already Won</text>
 </svg>`;
 const variants = { 'dark-shirts': ['#FFFFFF', '#141414'], 'light-shirts': ['#141414', '#141414'] };
 (async () => {
@@ -92,9 +87,10 @@ const variants = { 'dark-shirts': ['#FFFFFF', '#141414'], 'light-shirts': ['#141
     await p.setContent(`<style>${css}html,body{margin:0;background:transparent}#s{display:block;width:${w}px;height:${h}px}</style>${html}`);
     await p.evaluate(() => document.fonts.ready); await p.screenshot({ path, omitBackground: true });
   };
+  for (const f of fs.readdirSync(`${OUT}/files`)) fs.unlinkSync(`${OUT}/files/${f}`);
   for (const [n, [ink, pl]] of Object.entries(variants)) {
     await shot(back(ink, pl), 3600, 4800, `${OUT}/files/PRINTFUL-BACK_${n}.png`);
-    await shot(front(ink, pl), 1200, 1200, `${OUT}/files/PRINTFUL-FRONT-left-chest_${n}.png`);
+    await shot(front(ink), 3600, 1200, `${OUT}/files/PRINTFUL-FRONT-center-chest_${n}.png`);
   }
   await b.close();
 })();

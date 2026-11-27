@@ -11,7 +11,7 @@ Blank: Printful women's relaxed t-shirt, Bella+Canvas 6400. Printing: DTG (direc
   - An hourglass figure that becomes the cup, and a gown that narrows into the stem.
 - **Base:** a plain two-tier gold base, with no plaque or text, and gold sparkles around her.
 
-**Front (left chest):** *Already Won* in an elegant script on top, with a gold laurel-wreath crest around the same trophy underneath it and a small star at the top of the wreath.
+**Front (centre chest):** just the words *Already Won* in an elegant script, centred across the chest, about 10" wide. White on dark shirts, black on light shirts.
 
 Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for commercial use.
 
@@ -21,8 +21,8 @@ Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for co
 |---|---|---|
 | `PRINTFUL-BACK_dark-shirts.png` | Back, for Black and other dark colours | 3600 × 4800 px (12" × 16") |
 | `PRINTFUL-BACK_light-shirts.png` | Back, for White and other light colours | 3600 × 4800 px |
-| `PRINTFUL-FRONT-left-chest_dark-shirts.png` | Front, left chest | 1200 × 1200 px (4" × 4") |
-| `PRINTFUL-FRONT-left-chest_light-shirts.png` | Front, left chest | 1200 × 1200 px |
+| `PRINTFUL-FRONT-center-chest_dark-shirts.png` | Front, centre chest | 3600 × 1200 px (12" × 4"; the text is about 10.3" × 2.4") |
+| `PRINTFUL-FRONT-center-chest_light-shirts.png` | Front, centre chest | 3600 × 1200 px |
 
 ### Previews (`mockups/`, one image each)
 - `mockup-tee-black-front.png`, `mockup-tee-black-back.png`, `mockup-tee-white-front.png`, `mockup-tee-white-back.png`
@@ -31,7 +31,7 @@ Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for co
 ## Printful setup
 1. Product Templates → Women's Relaxed T-Shirt (Bella+Canvas 6400).
 2. **Back:** upload `PRINTFUL-BACK_…`, fill the back print area, and align it to the top.
-3. **Front:** use the Left chest placement if Printful offers it. Otherwise upload `PRINTFUL-FRONT-left-chest_…` to the Front area, scale it to about 3.5–4" wide, and place it on the wearer's left chest, about 3" below the collar.
+3. **Front:** upload `PRINTFUL-FRONT-center-chest_…` to the Front area at full width, centre it left to right, and place the top of the text about 3–4" below the collar.
 4. Check the print areas in Printful's editor; the 12" × 16" size here is my assumption for this shirt, so check it. Front and back printing usually adds a second-placement fee.
 5. Shirt colours that work best:
    - Dark files: Black, Dark Grey Heather, Navy, Maroon.
@@ -41,7 +41,7 @@ Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for co
 **Title:** Walking Trophy Shirt, Already Won Tee, Women's Relaxed Tee, Gold Trophy Graphic, Confidence Shirt, Self Love Gift, Black Woman Empowerment Tee
 
 **Description:**
-She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy on the back shaped like a woman, with her afro, curves and hands on her hips. On the front is a gold laurel crest with the words *Already Won*.
+She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy on the back shaped like a woman, with her afro, curves and hands on her hips. On the front, centred across the chest: *Already Won*.
 - Bella+Canvas 6400 women's relaxed fit, soft 100% cotton (heathers are cotton blend)
 - Printed front and back
 - Made to order
