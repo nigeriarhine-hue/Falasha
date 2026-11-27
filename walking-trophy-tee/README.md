@@ -3,17 +3,22 @@
 Blank: Printful women's relaxed t-shirt, Bella+Canvas 6400. Printing: DTG (direct-to-garment), so the gold gradients print as they are.
 
 ## Design
-**Back:** the headline "WALKING" in white (black on light shirts) and "TROPHY" in gold, with a gold underline. Below it is a gold trophy shaped like a woman:
-- Her arms on her hips form the trophy's handles.
-- Her hourglass figure forms the cup, and her gown narrows into the trophy stem.
-- She has an afro and hoop earrings.
-- She stands on a two-step base with a "1ST PLACE" plaque, with gold sparkles around her.
+**Back:**
+- **Headline:** "*Walking*" in an elegant white script (black on light shirts), above "T R O P H Y" in spaced gold capitals, with a thin gold divider.
+- **Trophy:** a polished gold statuette of a woman:
+  - She has an afro and drop earrings.
+  - Both hands are on her hips, so her arms form the two loops of a trophy's handles.
+  - She wears a fitted gown, with one leg stepping forward through a slit.
+- **Base:** she stands on a round two-tier trophy base with a black **#1** plaque, with gold sparkles around her.
 
-**Front:** a small left-chest version of the same trophy (plaque left blank, since text would be too small at this size) with "WALKING TROPHY" underneath. It ties the front to the back without competing with it.
+**Front (left chest):** a gold crest.
+- A laurel wreath frames the same statuette, with a small star at the top of the wreath.
+- *Walking Trophy* is written underneath in the same script as the back headline.
 
-Font: Playfair Display Black (SIL Open Font License, free for commercial use).
+Fonts: Great Vibes (script) and Cormorant Garamond (capitals), both SIL Open Font License, free for commercial use.
 
-## Files (`files/`, transparent PNG, 300 DPI)
+## Files
+### Print files (`files/`, transparent PNG, 300 DPI)
 | File | Placement | Size |
 |---|---|---|
 | `PRINTFUL-BACK_dark-shirts.png` | Back, for Black and other dark colours | 3600 × 4800 px (12" × 16") |
@@ -21,7 +26,9 @@ Font: Playfair Display Black (SIL Open Font License, free for commercial use).
 | `PRINTFUL-FRONT-left-chest_dark-shirts.png` | Front, left chest | 1200 × 1200 px (4" × 4") |
 | `PRINTFUL-FRONT-left-chest_light-shirts.png` | Front, left chest | 1200 × 1200 px |
 
-The light-shirt versions swap the white lettering and the dark plaque for near-black (#141414). The gold stays the same.
+### Previews (`mockups/`, one image each)
+- `mockup-tee-black-front.png`, `mockup-tee-black-back.png`, `mockup-tee-white-front.png`, `mockup-tee-white-back.png`
+- `preview-back-on-black.png`, `preview-back-on-white.png`, `preview-front-on-black.png`, `preview-front-on-white.png`
 
 ## Printful setup
 1. Product Templates → Women's Relaxed T-Shirt (Bella+Canvas 6400).
@@ -36,7 +43,7 @@ The light-shirt versions swap the white lettering and the dark plaque for near-b
 **Title:** Walking Trophy Shirt, Women's Relaxed Tee, Gold Trophy Graphic, Confidence Shirt, Self Love Gift, Black Woman Empowerment Tee
 
 **Description:**
-She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy shaped like a woman on the back, and a matching mini trophy on the front chest.
+She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold statuette of a woman, with her afro, gown and hands on hips, on a #1 trophy base on the back. On the front is a gold laurel crest.
 - Bella+Canvas 6400 women's relaxed fit, soft 100% cotton (heathers are cotton blend)
 - Printed front and back
 - Made to order
