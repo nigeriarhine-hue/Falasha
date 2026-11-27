@@ -80,10 +80,11 @@ const back = (ink, plaqueInk) => `<svg id="s" xmlns="http://www.w3.org/2000/svg"
   <g transform="translate(0 -180) scale(3)">${crest(ink, plaqueInk)}</g>
 </svg>`;
 // FRONT centre chest: 12" x 4" @300dpi - just the words, centred
-const front = (ink) => `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 1200">
+const front = (ink) => `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 1200"><defs>${GOLD}</defs>
   <text x="1800" y="740" text-anchor="middle" font-family="GV" font-size="640" fill="${ink}">Already Won</text>
 </svg>`;
-const variants = { 'dark-shirts': ['#FFFFFF', '#141414'], 'light-shirts': ['#141414', '#141414'] };
+// All lettering is gold, so one file per placement works on every shirt colour.
+const variants = { 'all-shirts': ['url(#goldV)', '#141414'] };
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage();
   const shot = async (html, w, h, path) => {
@@ -93,8 +94,8 @@ const variants = { 'dark-shirts': ['#FFFFFF', '#141414'], 'light-shirts': ['#141
   };
   for (const f of fs.readdirSync(`${OUT}/files`)) fs.unlinkSync(`${OUT}/files/${f}`);
   for (const [n, [ink, pl]] of Object.entries(variants)) {
-    await shot(back(ink, pl), 3600, 4800, `${OUT}/files/PRINTFUL-BACK_${n}.png`);
-    await shot(front(ink), 3600, 1200, `${OUT}/files/PRINTFUL-FRONT-center-chest_${n}.png`);
+    await shot(back(ink, pl), 3600, 4800, `${OUT}/files/PRINTFUL-BACK.png`);
+    await shot(front(ink), 3600, 1200, `${OUT}/files/PRINTFUL-FRONT-center-chest.png`);
   }
   await b.close();
 })();
