@@ -4,18 +4,16 @@ Blank: Printful women's relaxed t-shirt, Bella+Canvas 6400. Printing: DTG (direc
 
 ## Design
 **Back:**
-- **Headline:** "*Walking*" in an elegant white script (black on light shirts), above "T R O P H Y" in spaced gold capitals, with a thin gold divider.
-- **Trophy:** a polished gold statuette of a woman:
-  - She has an afro and drop earrings.
-  - Both hands are on her hips, so her arms form the two loops of a trophy's handles.
-  - She wears a fitted gown, with one leg stepping forward through a slit.
-- **Base:** she stands on a round two-tier trophy base with a black **#1** plaque, with gold sparkles around her.
+- **Headline:** "WALKING" in white (black on light shirts), and "TROPHY" in gold, in bold Playfair Display capitals, with a gold underline.
+- **Trophy:** an all-gold trophy shaped like a woman:
+  - Curly afro and hoop earrings.
+  - Both hands on her hips, so her arms form the trophy's two handle loops.
+  - An hourglass figure that becomes the cup, and a gown that narrows into the stem.
+- **Base:** a plain two-tier gold base, with no plaque or text, and gold sparkles around her.
 
-**Front (left chest):** a gold crest.
-- A laurel wreath frames the same statuette, with a small star at the top of the wreath.
-- *Walking Trophy* is written underneath in the same script as the back headline.
+**Front (left chest):** a gold laurel-wreath crest around the same trophy, with a small star at the top of the wreath and *Walking Trophy* in an elegant script underneath.
 
-Fonts: Great Vibes (script) and Cormorant Garamond (capitals), both SIL Open Font License, free for commercial use.
+Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for commercial use.
 
 ## Files
 ### Print files (`files/`, transparent PNG, 300 DPI)
@@ -43,7 +41,7 @@ Fonts: Great Vibes (script) and Cormorant Garamond (capitals), both SIL Open Fon
 **Title:** Walking Trophy Shirt, Women's Relaxed Tee, Gold Trophy Graphic, Confidence Shirt, Self Love Gift, Black Woman Empowerment Tee
 
 **Description:**
-She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold statuette of a woman, with her afro, gown and hands on hips, on a #1 trophy base on the back. On the front is a gold laurel crest.
+She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy on the back shaped like a woman, with her afro, curves and hands on her hips. On the front is a gold laurel crest.
 - Bella+Canvas 6400 women's relaxed fit, soft 100% cotton (heathers are cotton blend)
 - Printed front and back
 - Made to order
