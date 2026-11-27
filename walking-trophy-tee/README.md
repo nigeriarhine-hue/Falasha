@@ -3,23 +3,20 @@
 Blank: Printful women's relaxed t-shirt, Bella+Canvas 6400. Printing: DTG (direct-to-garment), so the gold gradients print as they are.
 
 ## Design
-**Back:**
-- **Headline:** "WALKING" in white (black on light shirts), and "TROPHY" in gold, in bold Playfair Display capitals, with a gold underline.
-- **Trophy:** an all-gold trophy shaped like a woman:
-  - Curly afro and hoop earrings.
-  - Both hands on her hips, so her arms form the trophy's two handle loops.
-  - An hourglass figure that becomes the cup, and a gown that narrows into the stem.
-- **Base:** a plain two-tier gold base, with no plaque or text, and gold sparkles around her.
+**Back:** the Walking Trophy crest, about 11.5" wide × 10.4" tall across the upper back:
+- *Walking Trophy* in an elegant script on top (white on dark shirts, black on light shirts).
+- Underneath, a gold laurel wreath with a small star at the top.
+- Inside the wreath, an all-gold trophy shaped like a woman, with a curly afro, hoop earrings and both hands on her hips (her arms form the trophy's handles), on a plain gold base.
 
 **Front (centre chest):** just the words *Already Won* in an elegant script, centred across the chest, about 10" wide. White on dark shirts, black on light shirts.
 
-Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for commercial use.
+Font: Great Vibes (SIL Open Font License, free for commercial use).
 
 ## Files
 ### Print files (`files/`, transparent PNG, 300 DPI)
 | File | Placement | Size |
 |---|---|---|
-| `PRINTFUL-BACK_dark-shirts.png` | Back, for Black and other dark colours | 3600 × 4800 px (12" × 16") |
+| `PRINTFUL-BACK_dark-shirts.png` | Back, for Black and other dark colours | 3600 × 4800 px (12" × 16"; the design is 11.5" × 10.4", aligned to the top) |
 | `PRINTFUL-BACK_light-shirts.png` | Back, for White and other light colours | 3600 × 4800 px |
 | `PRINTFUL-FRONT-center-chest_dark-shirts.png` | Front, centre chest | 3600 × 1200 px (12" × 4"; the text is about 10.3" × 2.4") |
 | `PRINTFUL-FRONT-center-chest_light-shirts.png` | Front, centre chest | 3600 × 1200 px |
@@ -41,7 +38,7 @@ Fonts: Playfair Display and Great Vibes, both SIL Open Font License, free for co
 **Title:** Walking Trophy Shirt, Already Won Tee, Women's Relaxed Tee, Gold Trophy Graphic, Confidence Shirt, Self Love Gift, Black Woman Empowerment Tee
 
 **Description:**
-She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold trophy on the back shaped like a woman, with her afro, curves and hands on her hips. On the front, centred across the chest: *Already Won*.
+She doesn't need an award, she *is* the award. This Walking Trophy tee has a gold laurel crest on the back, with a trophy shaped like a woman: her afro, curves and hands on her hips. On the front, centred across the chest: *Already Won*.
 - Bella+Canvas 6400 women's relaxed fit, soft 100% cotton (heathers are cotton blend)
 - Printed front and back
 - Made to order
