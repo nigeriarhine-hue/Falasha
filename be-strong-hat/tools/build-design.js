@@ -1,18 +1,19 @@
-// BE STRONG / AND OF GOOD / COURAGE - three lines, one per colour band, gold lettering (no outline: the bands give the contrast).
+// BE STRONG / AND OF GOOD / COURAGE - straight layout: level bands, upright letters, one line per colour band, gold lettering.
 const fs = require('fs'); const { chromium } = require('playwright');
 const F = process.env.FONTS_DIR || __dirname + '/fonts', OUT = process.env.OUT || '/home/user/Falasha/be-strong-hat';
 const b64 = f => fs.readFileSync(f).toString('base64');
 const css = `@font-face{font-family:K;src:url(data:font/woff2;base64,${b64(`${F}/fontsource-knewave-5.3.0/package/files/knewave-latin-400-normal.woff2`)})}`;
 const T = { red: '#CC3333', gold: '#FFCC00', green: '#01784E', black: '#000000', white: '#FFFFFF' };
 const LINES = [['BE STRONG', 300], ['AND OF GOOD', 236], ['COURAGE', 300]];   // text, font size
-const GAP = 150, SPACING = 14;   // extra baseline gap, letter spacing                                                  // baseline step extra, outline width
+const GAP = 150, SPACING = 14;   // extra baseline gap, letter spacing
+const UPRIGHT = 9;                // Knewave leans ~9 deg; counter-skew so letters stand straight                                                  // baseline step extra, outline width
 const svg = (letters) => {
   let y = 0; const rows = LINES.map(([t, s], i) => { y += (i ? GAP : 0) + s * 0.81; return [t, s, y]; });
   const layer = (fills) => rows.map(([t, s, y], i) =>
-    `<text x="1200" y="${y}" font-family="K" font-size="${s}" letter-spacing="${SPACING}" fill="${fills[i]}">${t}</text>`).join('');
+    `<text x="1200" y="${y}" font-family="K" font-size="${s}" letter-spacing="${SPACING}" fill="${fills[i]}" transform="translate(0 ${y - s*0.4}) skewX(${UPRIGHT}) translate(0 ${-(y - s*0.4)})">${t}</text>`).join('');
   return `<svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1600">
-   <g id="bands" transform="skewX(-8)"></g>
-   <g id="txt" transform="skewX(-8)" stroke-linejoin="round" text-anchor="middle">
+   <g id="bands"></g>
+   <g id="txt" stroke-linejoin="round" text-anchor="middle">
     <g id="ol">${layer(letters)}</g>
    </g></svg>`;
 };
@@ -30,6 +31,8 @@ const layout = (cols) => {
   [...document.querySelectorAll('#ol text')].forEach((t, i) => {
     const r = rows[i], dy = (cuts[i] + cuts[i + 1]) / 2 - (r.y + r.height / 2);
     t.setAttribute('y', +t.getAttribute('y') + dy);
+    const yc = +t.getAttribute('y') - r.height * 0.3;  // re-centre the upright skew on the moved line
+    t.setAttribute('transform', `translate(0 ${yc}) skewX(9) translate(0 ${-yc})`);
   });
   const band = (y, h) => {
     const P = [], n = 14;

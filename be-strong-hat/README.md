@@ -1,16 +1,16 @@
 # BE STRONG and of Good Courage dad hat
 
 Blank: Printful Classic Dad Hat, Yupoong 6245CM. Placement: front embroidery, centred.
-The design stitches at about **2.8" wide × 1.75" tall**.
+The design stitches at about **2.6" wide × 1.75" tall**.
 
 ## Design
-Three lines, one on each African-colour band, with equal-height brush-edged bands and each line centred in its band:
+Three lines, one on each African-colour band. The layout is straight: level, equal-height bands with brush-edged ends, upright letters, and each line centred in its band.
 
     BE STRONG      (red band)
     AND OF GOOD    (middle band)
     COURAGE        (green band)
 
-- The lettering is gold (Knewave brush capitals), with no outline. The bands provide the contrast, so the letters stay open and stitch cleanly.
+- The lettering is gold (Knewave brush capitals, set upright), with no outline. The bands provide the contrast, so the letters stay open and stitch cleanly.
 - **Red / Gold / Green:** gold letters on red and green, and **black** letters on the gold band, because gold on gold wouldn't show.
 - **Red / Black / Green** (Pan-African flag): gold letters on all three bands.
 - Letter heights on the hat: BE STRONG and COURAGE are 0.32" tall, and AND OF GOOD is 0.25". All meet Printful's 0.25" minimum for text.
